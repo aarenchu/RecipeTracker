@@ -7,6 +7,9 @@ import PageNotFound from './PageNotFound';
 import Breadcrumbs from './Breadcrumbs';
 import s from '../styles/app.style';
 
+/*f you are using React Router you'll need to tell it to use the 
+repo-name as the basename, for example <BrowserRouter basename="/repo-name" />*/
+
 export default function App() {
   return (
     <div style={s.root}>
